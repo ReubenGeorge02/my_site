@@ -1,0 +1,83 @@
+body{
+  background-color: #ff4d05;
+  text-align: center;
+}
+
+.container-fluid{
+  overflow: hidden;
+  padding: 1% 12% 7%;
+}
+
+/* navbar */
+
+.contact-button{
+  background-color: #000;
+  border-color: #ff4d05;
+  color: #ff4d05;
+}
+
+.contact-button:hover{
+  color: #fff;
+  background-color: #ff4d05;
+  border-color: #ff4d05;
+}
+
+.contact-button:active{
+  background-color: #ff4d05;
+  box-shadow: black 0 0 0 0.2em;
+  color: #fff;
+}
+
+.contact-button:focus{
+  box-shadow: black 0 0 0 0;
+}
+
+.navbar-logo{
+  border-radius: 100%;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #ffffff;
+}
+
+.navbar-dark:hover .navbar-nav:hover .nav-link:hover {
+  color: #ff4d05;
+}
+
+.nav-link, .contact-button {
+  margin: auto 0.7em auto;
+}
+
+/* home */
+
+.home-main{
+  padding: 11.5em 15em 13em;
+}
+
+.h1-home{
+  color: rgb(212, 212, 212);
+  font-size: 60px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.p-home{
+  color: rgb(212, 212, 212);
+  font-size: 35px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.pro{
+  color: #ff4d05;
+  margin-right: 1px;
+}
+
+.reuben{
+  color: #ff4d05;
+}
+
+#home{
+  background-image: url(../images/home-bg.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
