@@ -81,3 +81,13 @@ body{
   background-attachment: fixed;
   background-size: cover;
 }
+
+/* About */
+ 
+#about{
+  padding-top: 3em;
+}
+
+.about-h1{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
